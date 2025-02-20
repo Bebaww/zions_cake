@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zions_cake/static/css/main.0050e72f.css",
-    "main.js": "/zions_cake/static/js/main.7071627d.js",
-    "static/js/453.d408e139.chunk.js": "/zions_cake/static/js/453.d408e139.chunk.js",
+    "main.js": "/zions_cake/static/js/main.5549e14f.js",
+    "static/js/453.69f3745b.chunk.js": "/zions_cake/static/js/453.69f3745b.chunk.js",
     "static/media/caputtiono.jpg": "/zions_cake/static/media/caputtiono.5468a5c8aa6d1eeb7d48.jpg",
     "static/media/purple ombre cake.jpg": "/zions_cake/static/media/purple ombre cake.c98b3c2773cfca5bd443.jpg",
     "static/media/wedding.jpg": "/zions_cake/static/media/wedding.5a026df776d925abe64e.jpg",
@@ -19,11 +19,11 @@
     "static/media/birthday.jpg": "/zions_cake/static/media/birthday.b832a58a1c537d92f397.jpg",
     "index.html": "/zions_cake/index.html",
     "main.0050e72f.css.map": "/zions_cake/static/css/main.0050e72f.css.map",
-    "main.7071627d.js.map": "/zions_cake/static/js/main.7071627d.js.map",
-    "453.d408e139.chunk.js.map": "/zions_cake/static/js/453.d408e139.chunk.js.map"
+    "main.5549e14f.js.map": "/zions_cake/static/js/main.5549e14f.js.map",
+    "453.69f3745b.chunk.js.map": "/zions_cake/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0050e72f.css",
-    "static/js/main.7071627d.js"
+    "static/js/main.5549e14f.js"
   ]
 }
