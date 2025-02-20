@@ -1,0 +1,111 @@
+.menu {
+    padding: 20px;
+    background-color: #fff8e1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.menu h1 {
+    color: #6a3b3b;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h2 {
+    font-size: 2rem;
+    color: #6a3b3b;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+/* Scrollable menu list */
+.scrollable-list {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #6a3b3b #fff8e1;
+}
+
+.scrollable-list::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background-color: #6a3b3b;
+    border-radius: 10px;
+}
+
+/* Individual menu items */
+.menu-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 220px; /* Ensures each item has a consistent width */
+    max-width: 220px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures images scale properly */
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #6a3b3b;
+}
+
+.menu-item p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu {
+        padding: 10px;
+    }
+
+    .menu h1 {
+        font-size: 2rem;
+    }
+
+    .menu-category h2 {
+        font-size: 1.8rem;
+    }
+
+    .scrollable-list {
+        gap: 15px;
+    }
+
+    .menu-item {
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    .menu-item img {
+        height: 120px;
+    }
+
+    .menu-item h3 {
+        font-size: 1rem;
+    }
+
+    .menu-item p {
+        font-size: 0.8rem;
+    }
+}

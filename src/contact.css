@@ -1,0 +1,106 @@
+/* Contact.css */
+.contact {
+    padding: 30px;
+    background-color: #f7e6d1; /* Light beige background for a cozy café feel */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    color: #4b2e2e; /* Dark brown text for café theme */
+    overflow: hidden; /* Ensures no content overflows */
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #6a3b3b; /* Darker brown for heading */
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #6a3b3b;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 0;
+    color: #4b2e2e;
+}
+
+/* Social media links styling */
+ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #6a3b3b;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #b35900; /* A warm brownish-orange color for hover */
+    text-decoration: underline;
+}
+
+/* Location styling */
+.location {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+    .contact {
+        padding: 40px;
+        margin: 50px auto;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 767px) {
+    .contact {
+        padding: 20px;
+        margin: 20px 10px;
+        max-width: 100%; /* Allow contact container to use full width */
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* Slightly reduced gap for mobile screens */
+        flex-wrap: wrap; /* Allows items to wrap when needed */
+    }
+
+    li {
+        margin: 5px;
+    }
+}
